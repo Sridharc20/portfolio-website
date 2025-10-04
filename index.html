@@ -5,55 +5,104 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sridhar Chandrashekar | Portfolio</title>
 <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header>
-  <h1>Sridhar Chandrashekar</h1>
-  <p>Full-Stack & Cloud Engineer | DevSecOps | AI Enthusiast</p>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <div class="container header-container">
+    <h1>Sridhar Chandrashekar</h1>
+    <p>Full-Stack & Cloud Engineer | DevSecOps | MLOps & AI Projects</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 
-<section id="about">
-  <h2>About Me</h2>
-  <p>Experienced in Java/Spring Boot, Python/FastAPI, MongoDB, AWS. Passionate about DevSecOps, RAG, AI Agents, and building scalable systems.</p>
-</section>
+<main>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Java, Spring Boot</li>
-    <li>Python, FastAPI</li>
-    <li>MongoDB, PostgreSQL</li>
-    <li>AWS Cloud, Azure Cloud, DevSecOps, CI/CD</li>
-    <li>RAG Systems, AI Agents</li>
-  </ul>
-</section>
-
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="project-card">
-    <img src="images/placeholder.png" alt="Project 1">
-    <h3>Project 1: SaaS Backend</h3>
-    <p>Multi-tenant backend using Spring Boot, MongoDB & AWS with async jobs and metrics.</p>
-    <p><strong>Tech Stack:</strong> Java, Spring Boot, MongoDB, AWS</p>
-    <a href="projects/project1.html">See Details</a>
+<section id="about" class="section">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Experienced software developer in Java/Spring Boot, Python/FastAPI, MongoDB, and AWS. Passionate about DevSecOps, MLOps, RAG systems, AI Agents, and building scalable, high-performance applications.</p>
   </div>
-  <!-- Add more project cards as you complete them -->
 </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: sridharc20@gmail.com</p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/sridharc20/">linkedin.com/in/sridharc20</a></p>
-  <p>GitHub: <a href="https://github.com/sridharc20">github.com/sridharc20</a></p>
+<section id="skills" class="section bg-light">
+  <div class="container">
+    <h2>Skills</h2>
+    <ul class="skills-grid">
+      <li>Java, Spring Boot</li>
+      <li>Python, FastAPI</li>
+      <li>MongoDB, PostgreSQL</li>
+      <li>AWS Cloud, CI/CD, DevSecOps</li>
+      <li>MLOps, MLflow, Docker</li>
+      <li>RAG Systems, AI Agents</li>
+    </ul>
+  </div>
 </section>
 
-<script src="js/main.js"></script>
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <!-- Iris MLOps Project -->
+      <div class="project-card">
+        <div class="card-img">
+          <!-- <img src="images/placeholder.png" alt="Iris MLOps Project"> -->
+        </div>
+        <div class="card-content">
+          <h3>End-to-End Iris Classifier</h3>
+          <p>Demonstrates full MLOps pipeline: data ingestion, preprocessing, model training with MLflow, and deployment via FastAPI & Docker.</p>
+          <p><strong>Tech Stack:</strong> Python, scikit-learn, FastAPI, MLflow, Docker</p>
+          <div class="card-links">
+            <a href="https://github.com/sridharc20/mlops-project" target="_blank">GitHub Repo</a>
+            <a href="#">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Template -->
+      <!-- <div class="project-card">
+        <div class="card-img">
+          <img src="images/placeholder.png" alt="Project Template">
+        </div>
+        <div class="card-content">
+          <h3>Project Title</h3>
+          <p>Brief description of the project goes here. Highlight key features, achievements, or innovations.</p>
+          <p><strong>Tech Stack:</strong> List your tech stack here</p>
+          <div class="card-links">
+            <a href="#">GitHub Repo</a>
+            <a href="#">Live Demo</a>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section bg-light">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sridharc20@gmail.com">sridharc20@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sridharc20/">linkedin.com/in/sridharc20</a></p>
+    <p>GitHub: <a href="https://github.com/sridharc20">github.com/sridharc20</a></p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 Sridhar Chandrashekar. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</main>
+
 </body>
 </html>
+
